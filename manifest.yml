@@ -1,0 +1,10 @@
+---
+applications:
+- name: parksangcheon-myadmin
+  memory: 512M
+  host: parksangcheon-myadmin
+  domain: paas-ta.org
+  services:
+  - parksangcheon-mysql-db
+  instances: 1
+  disk_quota: 512M
